@@ -1,0 +1,7 @@
+file = open('passport.jpg', 'rb')
+data = file.read()
+print(data)
+cp = open('passport1.jpg', 'wb')
+cp.write(data)
+file.close()
+cp.close()
